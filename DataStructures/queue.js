@@ -39,10 +39,12 @@ class Queue {
   }
 }
 
-let queue = new Queue();
-queue.enqueue(1);
-queue.enqueue(2);
-queue.enqueue(3);
-console.log(queue.dequeue());
+// let queue = new Queue();
+// queue.enqueue(1);
+// queue.enqueue(2);
+// queue.enqueue(3);
+// console.log(queue.dequeue());
 
-console.log(queue);
+// console.log(queue);
+
+module.exports = Queue;
